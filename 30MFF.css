@@ -1,0 +1,66 @@
+.prev-img-1 {
+    background-color: beige;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 200px;
+}
+.prev-img-2 {
+    background-color: beige;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 200px;
+}
+.prev-img-3 {
+    background-color: beige;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    left: 600px;
+}
+.film-description {
+    background-color: rgb(206, 216, 194);
+    width: 600px;
+    height: 100px;
+    position: absolute;
+    top: 326px;
+    left: 655px;
+    right: 600px;
+    padding: 5px;
+    border: 1px solid rgb(48, 23, 67);
+
+}
+.link-to-bts {
+
+}
+.link-to-trailer{
+
+}
+.quote{
+    background-color: beige;
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 57px;
+    left: 655px;
+    right: 600px;
+    padding: 5px;
+    border: 1px solid rgb(48, 23, 67);
+}
+.other-pages{
+
+}
+.other-pages-links{
+
+}
+.main-title {
+    color: rgb(35, 51, 45);
+}
+.sub-text {
+   
+}
+.border {
+    position: absolute;
+    left: 300px;
+}
