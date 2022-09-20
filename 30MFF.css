@@ -1,71 +1,165 @@
+html {
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color:rgb(124,140,76);
+    position: relative;
+}
+a:hover {
+    top: -2px;
+    color: rgb(162,179,131);
+}
 body{
-    background-color: #3b3a3a;
-    color: #555555
+    background-color: #e4ded3;
+    color: #a0b185;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
 }
-
-.prev-img-1 {
-    background-color: beige;
-    height: 200px;
-    width: 200px;
-    position: relative;
-    left: 200px;
-}
-.prev-img-2 {
-    background-color: beige;
-    height: 200px;
-    width: 200px;
-    position: relative;
-    left: 200px;
-}
-.prev-img-3 {
-    background-color: beige;
-    height: 200px;
-    width: 200px;
-    position: relative;
-    left: 600px;
-}
-.film-description {
-    background-color: rgb(206, 216, 194);
-    width: 600px;
-    height: 100px;
-    position: absolute;
-    top: 326px;
-    left: 655px;
-    right: 600px;
-    padding: 5px;
-    border: 1px solid rgb(48, 23, 67);
+/* Safari */
+.other-pages-links {
+    font-size: 20px;
+font-style: normal;
+padding: 10px;
 
 }
-.link-to-bts {
 
-}
-.link-to-trailer{
+.links {
+    text-align: center;
+    position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 
+margin: auto;
+background-color: rgba(190, 169, 148, 0.8);
 }
+
+#main-title{
+font-size: 80px;
+margin: 10px 0;
+}
+#main-title:hover{
+    color: rgb(112, 124, 91);
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.sub-heading {
+background-color: rgb(190, 169, 148,0.3);
+color: rgb(162,179,131,1);
+margin: 30px 0;
+}
+.container{
+    padding-top: 2%;
+    width: 80%;
+    margin: auto;
+}
+.home-images{
+
+    padding-top: 10px;
+    width: 100%;
+    margin: auto;
+    display:inline-block; 
+    box-sizing: border-box;
+    
+}
+.thumbnail { 
+    top:-50px; 
+    /* left:-35px;  */
+    margin: auto;
+    padding: 10px;
+    display:inline-block; 
+    z-index:999; 
+    cursor: pointer; 
+    transition-property: all; 
+    transition-duration: 0.3s; 
+    transition-timing-function: ease; 
+    } 
+    
+    /*change the number below to scale to the appropriate size*/ 
+    .thumbnail:hover { 
+    transform: scale(1.2); 
+    
+    }
 .quote{
-    background-color: beige;
-    width: 300px;
-    height: 250px;
-    position: absolute;
-    top: 57px;
-    left: 655px;
-    right: 600px;
-    padding: 5px;
-    border: 1px solid rgb(48, 23, 67);
+    font-size: 24px;
+    border-left: 5px rgba(190, 169, 148) solid;
+    margin: 20px 0px;
+    padding: 10px
 }
-.other-pages{
+.about{
+    
+    font-size: 24px;
+    border-left: 5px rgba(190, 169, 148) solid;
+    margin: 50px 0px;
+    padding: 10px;
+}
+#about-title{
+    font-size: 60px;
+    border-left: 5px rgba(190, 169, 148) solid;
+    border-right: 5px rgba(190, 169, 148) solid;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 10px 250px;
 
 }
-.other-pages-links{
+#about-title:hover{
+    color: rgb(112, 124, 91);
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    translate: 10px;
+}
+#bts-title{
+    font-size: 60px;
+    line-height: 60px;
+    border-left: 5px rgba(190, 169, 148) solid;
+    border-right: 5px rgba(190, 169, 148) solid;
+    margin: 10px 0px;
+    padding: 10px 250px;
 
 }
-.main-title {
-    color: rgb(35, 51, 45);
+#bts-title:hover{
+    color: rgb(112, 124, 91);
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    translate: 10px;
 }
-.sub-text {
-   
+.bts{
+    font-size: 24px;
+    border-left: 5px rgba(190, 169, 148) solid;
+    margin: 50px 0px;
+    padding: 10px;
 }
-.border {
-    position: absolute;
-    left: 300px;
+#credits-title{
+    font-size: 60px;
+    line-height: 60px;
+    border-left: 5px rgba(190, 169, 148) solid;
+    border-right: 5px rgba(190, 169, 148) solid;
+    margin: 10px 0px;
+    padding: 10px 250px;
+
+}
+#credits-title:hover{
+    color: rgb(112, 124, 91);
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    translate: 10px;
+}
+.bts{
+    font-size: 24px;
+    border-left: 5px rgba(190, 169, 148) solid;
+    margin: 50px 0px;
+    padding: 10px;
+}
+.credits {
+    float:left;
+    width:33.3%;
+    margin: 20px 0;
+    border-bottom: 5px solid rgb(112, 124, 91);
+    padding: 10px;
+    box-sizing: border-box;
+}
+.video{
+
 }
