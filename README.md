@@ -54,4 +54,8 @@ to have them move. This added a simple interactive element to the whole page tha
 I used the same colors for the background and the font so that the design was cohesive, and used similar margin settings too. One problem I ran 
 into was with JavaScript, although I followed this tutorial on YouTube, the interactivity did not change or reflect on the actual website. I tried 
 different methods and possible solutions but nothing worked. Here is the final webpage:
+<br>
+
+https://user-images.githubusercontent.com/98512587/192159979-8a0ea806-8f8f-49cf-9af0-c8b265fd924d.mp4
+
 
